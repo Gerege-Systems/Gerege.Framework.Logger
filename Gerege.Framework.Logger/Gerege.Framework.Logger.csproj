@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>gerege-win.ico</ApplicationIcon>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+    <Version>5.0.3</Version>
+    <Authors>Гэрэгэ Системс ХХК</Authors>
+    <Description>Gerege Application Development Framework - Logger library</Description>
+    <Copyright>Gerege Systems LLC</Copyright>
+    <PackageProjectUrl>https://github.com/Gerege-Systems/Gerege.Framework.Logger</PackageProjectUrl>
+    <PackageIcon>gerege-icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>gerege;framework;logger</PackageTags>
+    <NeutralLanguage>mn-MN</NeutralLanguage>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="gerege-win.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="gerege-icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="nuget.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+  
+</Project>
