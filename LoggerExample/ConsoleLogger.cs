@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Collections.Generic;
+using Gerege.Framework.Logger;
 
-namespace Gerege.Framework.Logger
+namespace LoggerExample
 {
     /// <author>
     /// codesaur - 2022.01.29

@@ -1,8 +1,6 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 
-using Gerege.Framework.Logger;
-
 namespace LoggerExample
 {
     /// <summary>
@@ -20,7 +18,7 @@ namespace LoggerExample
             var button = (Button)sender;
             button.Content = "Clicked";
 
-            DatabaseLogger db = new ConsoleLogger();
+            var db = new ConsoleLogger();
             db.Connect("my-imaginary-database");
             db.Trace("general", "Programm button clicked", new { button = button.Name });
 
