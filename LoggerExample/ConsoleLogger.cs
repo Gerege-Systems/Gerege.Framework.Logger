@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Collections.Generic;
+
 using Gerege.Framework.Logger;
 
 namespace LoggerExample
@@ -13,7 +14,7 @@ namespace LoggerExample
     /// </package>
 
     /// <summary>
-    /// Хөгжүүлэлтийн орчинд Output консол дээр лог харуулах обьект.
+    /// Хөгжүүлэлтийн орчинд Debug горимтой үед Output консол дээр лог харуулах обьект.
     /// </summary>
     public class ConsoleLogger : DatabaseLogger
     {
