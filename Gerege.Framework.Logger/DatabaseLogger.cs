@@ -22,7 +22,7 @@ namespace Gerege.Framework.Logger
         /// </summary>
         /// <param name="connection">Лог удирдах ерөнхий бааз бүтэц нэр/холболтын тохиргоо.</param>
         /// <returns>Үйлдэл амжилттай эсэх boolean утга.</returns>
-        public abstract bool Connect(string? connection = null);
+        public abstract bool Connect(string connection = null);
 
         /// <summary>
         /// Мэдээллийн бааз унших/бичих үйлдэлд бэлэн эсэхийг шалгах.
@@ -136,4 +136,3 @@ namespace Gerege.Framework.Logger
         public void Trace(string table, string message, dynamic context) => Log(table, "trace", message, context);
     }
 }
-
