@@ -10,7 +10,7 @@ namespace Gerege.Framework.Logger
     /// </package>
 
     /// <summary>
-    /// Лог мэдээлэл бүтэц.
+    /// Лог мэдээлэл.
     /// </summary>
     public struct Log
     {
