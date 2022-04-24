@@ -10,7 +10,7 @@
 		<icon>gerege-icon.png</icon>
 		<description>$description$</description>
 		<copyright>$copyright$</copyright>
-		<tags>gerege;logger;log</tags>
+		<tags>gerege;logger;log;logging;databaselogger</tags>
 		<dependencies>
 			<group targetFramework=".NETFramework4.7.2">
 			</group>
