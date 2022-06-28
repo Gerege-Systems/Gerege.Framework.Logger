@@ -1,32 +1,28 @@
-﻿using System;
+﻿namespace Gerege.Framework.Logger;
 
-namespace Gerege.Framework.Logger
+/////// date: 2021.12.03 //////////
+///// author: Narankhuu ///////////
+//// contact: codesaur@gmail.com //
+
+using System;
+
+/// <summary>
+/// Лог мэдээлэл.
+/// </summary>
+public struct Log
 {
-    /// <author>
-    /// codesaur - 2021.12.03
-    /// </author>
-    /// <package>
-    /// Gerege Application Development Framework V5
-    /// </package>
+    /// <summary>Лог дугаар.</summary>
+    public string Id;
 
-    /// <summary>
-    /// Лог мэдээлэл.
-    /// </summary>
-    public struct Log
-    {
-        /// <summary>Лог дугаар.</summary>
-        public string Id;
+    /// <summary>Лог түвшин.</summary>
+    public string Level;
 
-        /// <summary>Лог түвшин.</summary>
-        public string Level;
+    /// <summary>Лог тайлбар мессеж.</summary>
+    public string Message;
 
-        /// <summary>Лог тайлбар мессеж.</summary>
-        public string Message;
+    /// <summary>Лог өгөгдөл/утгууд.</summary>
+    public dynamic Context;
 
-        /// <summary>Лог өгөгдөл/утгууд.</summary>
-        public dynamic Context;
-
-        /// <summary>Лог үүссэн огноо.</summary>
-        public DateTime CreatedAt;
-    }
+    /// <summary>Лог үүссэн огноо.</summary>
+    public DateTime CreatedAt;
 }
