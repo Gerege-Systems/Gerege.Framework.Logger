@@ -1,11 +1,11 @@
-﻿namespace LoggerExample;
+﻿using System.Windows;
+using System.Windows.Controls;
 
 /////// date: 2022.01.29 //////////
 ///// author: Narankhuu ///////////
 //// contact: codesaur@gmail.com //
 
-using System.Windows;
-using System.Windows.Controls;
+namespace LoggerExample;
 
 /// <summary>
 /// Interaction logic for MainWindow.xaml

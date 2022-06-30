@@ -7,6 +7,7 @@
     <Nullable>enable</Nullable>
     <StartupObject></StartupObject>
     <PlatformTarget>AnyCPU</PlatformTarget>
+    <RootNamespace>LoggerExample</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <Page Include="App.xaml" />

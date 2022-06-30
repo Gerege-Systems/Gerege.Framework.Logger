@@ -1,10 +1,10 @@
-﻿namespace Gerege.Framework.Logger;
+﻿using System.Collections.Generic;
 
 /////// date: 2021.12.03 //////////
 ///// author: Narankhuu ///////////
 //// contact: codesaur@gmail.com //
 
-using System.Collections.Generic;
+namespace Gerege.Framework.Logger;
 
 /// <summary>
 /// Программ ажиллаж байх үед шаардлагатай лог мэдээллийг баазад цуглуулж хадгалах хийсвэр класс.

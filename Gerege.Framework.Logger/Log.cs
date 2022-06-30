@@ -1,10 +1,10 @@
-﻿namespace Gerege.Framework.Logger;
+﻿using System;
 
 /////// date: 2021.12.03 //////////
 ///// author: Narankhuu ///////////
 //// contact: codesaur@gmail.com //
 
-using System;
+namespace Gerege.Framework.Logger;
 
 /// <summary>
 /// Лог мэдээлэл.

@@ -12,9 +12,8 @@
 		<copyright>$copyright$</copyright>
 		<tags>gerege;logger;log;logging;databaselogger</tags>
 		<dependencies>
-			<group targetFramework=".NETFramework4.7.2">
-			</group>
-		</dependencies>
+            <dependency id="Microsoft.CSharp" version="4.7.0" />
+        </dependencies>
 	</metadata>
 	<files>
 		<file src=".\README.md" target="\" />

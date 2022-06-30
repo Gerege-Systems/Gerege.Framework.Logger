@@ -1,10 +1,10 @@
-﻿namespace LoggerExample;
+﻿using System.Windows;
 
 /////// date: 2022.01.29 //////////
 ///// author: Narankhuu ///////////
 //// contact: codesaur@gmail.com //
 
-using System.Windows;
+namespace LoggerExample;
 
 /// <summary>
 /// Interaction logic for App.xaml

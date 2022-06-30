@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "LoggerExample .NET 6 (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "LoggerExample .NET 6 (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
