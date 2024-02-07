@@ -11,9 +11,6 @@
 		<description>$description$</description>
 		<copyright>$copyright$</copyright>
 		<tags>gerege;logger;log;logging;databaselogger</tags>
-		<dependencies>
-            <dependency id="Microsoft.CSharp" version="4.7.0" />
-        </dependencies>
 	</metadata>
 	<files>
 		<file src=".\README.md" target="\" />
