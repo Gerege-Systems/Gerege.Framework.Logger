@@ -27,7 +27,7 @@ public class ConsoleLogger : DatabaseLogger
     }
 
     /// <inheritdoc />
-    protected override void Log(string table, string level, string message, dynamic context)
+    protected override void Log(string table, string level, string message, object context)
     {
         string log =
             "["
