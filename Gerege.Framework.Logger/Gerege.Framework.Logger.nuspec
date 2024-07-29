@@ -11,7 +11,10 @@
 		<description>$description$</description>
 		<copyright>$copyright$</copyright>
 		<tags>gerege;logger;log;logging;databaselogger</tags>
-	</metadata>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
 	<files>
 		<file src=".\README.md" target="\" />
 		<file src=".\gerege-icon.png" target="\" />
