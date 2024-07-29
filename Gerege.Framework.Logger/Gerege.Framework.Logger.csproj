@@ -17,6 +17,7 @@
     <NeutralLanguage>mn-MN</NeutralLanguage>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <RepositoryUrl>https://github.com/Gerege-Systems/Gerege.Framework.Logger</RepositoryUrl>
+    <UserSecretsId>f00ec123-9fa3-431e-bc0b-8023ececd711</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
