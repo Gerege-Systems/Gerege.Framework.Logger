@@ -29,19 +29,7 @@ public class ConsoleLogger : DatabaseLogger
     /// <inheritdoc />
     protected override void Log(string table, string level, string message, object context)
     {
-        string log =
-            "["
-            + GetType().Name.ToUpper()
-            + "] Me writing log in "
-            + level
-            + " to "
-            + table
-            + " : message => \""
-            + message
-            + "\" and context => "
-            + Convert.ToString(context);
-
-        Debug.WriteLine(log);
+        Debug.WriteLine($"[{GetType().Name.ToUpper()}] Me writing log in {level} to {table} : message => \"{message}\" and context => {Convert.ToString(context)}");
     }
 
     /// <inheritdoc />

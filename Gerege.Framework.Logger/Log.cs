@@ -21,7 +21,7 @@ namespace Gerege.Framework.Logger
         public string Message;
 
         /// <summary>Лог өгөгдөл/утгууд.</summary>
-        public dynamic Context;
+        public object Context;
 
         /// <summary>Лог үүссэн огноо.</summary>
         public DateTime CreatedAt;

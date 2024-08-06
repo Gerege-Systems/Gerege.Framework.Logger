@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <ApplicationIcon>gerege-win.ico</ApplicationIcon>
     <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
-    <Version>8.0.0</Version>
+    <Version>8.1.0</Version>
     <Authors>Гэрэгэ Системс ХХК</Authors>
     <Description>Gerege Application Development Framework - Logger library</Description>
     <Copyright>Gerege Systems LLC</Copyright>
